@@ -11,7 +11,7 @@
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>729B5706E7BAF4E9EE7AEE3C003A08107411AB7C</key>
-		<string>github.com:shazron/cordova-plugin-camera.git</string>
+		<string>github.com:shazron/cordova-plugin-my-camera.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>tests/ios/CDVCameraTest.xcworkspace</string>
@@ -21,7 +21,7 @@
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>github.com:shazron/cordova-plugin-camera.git</string>
+	<string>github.com:shazron/cordova-plugin-my-camera.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>729B5706E7BAF4E9EE7AEE3C003A08107411AB7C</string>
 			<key>IDESourceControlWCCName</key>
-			<string>cordova-plugin-camera</string>
+			<string>cordova-plugin-my-camera</string>
 		</dict>
 	</array>
 </dict>

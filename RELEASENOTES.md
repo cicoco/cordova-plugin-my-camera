@@ -24,136 +24,136 @@
 
 **Breaking Changes:**
 
-* [GH-848](https://github.com/apache/cordova-plugin-camera/pull/848) fix!: remove deprecated platforms
-* [GH-844](https://github.com/apache/cordova-plugin-camera/pull/844) feat(android)!: Android 13 support
+* [GH-848](https://github.com/apache/cordova-plugin-my-camera/pull/848) fix!: remove deprecated platforms
+* [GH-844](https://github.com/apache/cordova-plugin-my-camera/pull/844) feat(android)!: Android 13 support
 
 **Fixes:**
 
-* [GH-827](https://github.com/apache/cordova-plugin-camera/pull/827) fix(android): set `applicationId`
-* [GH-810](https://github.com/apache/cordova-plugin-camera/pull/810) fix(browser): use `navigator.mediaDevices.getUserMedia`
-* [GH-712](https://github.com/apache/cordova-plugin-camera/pull/712) fix(ios): preserving `EXIF` data
-* [GH-780](https://github.com/apache/cordova-plugin-camera/pull/780) fix(android): update queries in `plugin.xml`
+* [GH-827](https://github.com/apache/cordova-plugin-my-camera/pull/827) fix(android): set `applicationId`
+* [GH-810](https://github.com/apache/cordova-plugin-my-camera/pull/810) fix(browser): use `navigator.mediaDevices.getUserMedia`
+* [GH-712](https://github.com/apache/cordova-plugin-my-camera/pull/712) fix(ios): preserving `EXIF` data
+* [GH-780](https://github.com/apache/cordova-plugin-my-camera/pull/780) fix(android): update queries in `plugin.xml`
 
 **Chores, Dependencies, Docs:**
 
-* [GH-850](https://github.com/apache/cordova-plugin-camera/pull/850) chore: remove windows/osx from `plugin.xml`
-* [GH-849](https://github.com/apache/cordova-plugin-camera/pull/849) chore: Update `SUPPORT_QUESTION.md` template
-* [GH-831](https://github.com/apache/cordova-plugin-camera/pull/831) chore(android): Cleanup obsolete `BuildConfig` comments
-* [GH-846](https://github.com/apache/cordova-plugin-camera/pull/846) dep(dev)!: bump `@cordova/eslint-config@5.0`
-* [GH-800](https://github.com/apache/cordova-plugin-camera/pull/800) dep(npm): bump package-lock v2 w/ rebuild
-* [GH-808](https://github.com/apache/cordova-plugin-camera/pull/808) docs(README): Document `ANDROIDX_CORE_VERSION` variable
+* [GH-850](https://github.com/apache/cordova-plugin-my-camera/pull/850) chore: remove windows/osx from `plugin.xml`
+* [GH-849](https://github.com/apache/cordova-plugin-my-camera/pull/849) chore: Update `SUPPORT_QUESTION.md` template
+* [GH-831](https://github.com/apache/cordova-plugin-my-camera/pull/831) chore(android): Cleanup obsolete `BuildConfig` comments
+* [GH-846](https://github.com/apache/cordova-plugin-my-camera/pull/846) dep(dev)!: bump `@cordova/eslint-config@5.0`
+* [GH-800](https://github.com/apache/cordova-plugin-my-camera/pull/800) dep(npm): bump package-lock v2 w/ rebuild
+* [GH-808](https://github.com/apache/cordova-plugin-my-camera/pull/808) docs(README): Document `ANDROIDX_CORE_VERSION` variable
 
 **CI:**
 
-* [GH-851](https://github.com/apache/cordova-plugin-camera/pull/851) ci(gh-action): sync with `paramedic` configs
-* [GH-835](https://github.com/apache/cordova-plugin-camera/pull/835) ci(android): Drop API 22 & 31. Added API 24 & 33
-* [GH-804](https://github.com/apache/cordova-plugin-camera/pull/804) ci: sync workflow with `paramedic`
-* [GH-798](https://github.com/apache/cordova-plugin-camera/pull/798) ci(android): update java requirement for `cordova-android@11`
-* [GH-770](https://github.com/apache/cordova-plugin-camera/pull/770) ci(ios): update workflow w/ iOS 15
-* [GH-766](https://github.com/apache/cordova-plugin-camera/pull/766) ci: remove old ci workflow
-* [GH-765](https://github.com/apache/cordova-plugin-camera/pull/765) ci: add action-badge
-* [GH-764](https://github.com/apache/cordova-plugin-camera/pull/764) ci: remove `travis` & `appveyor`
-* [GH-762](https://github.com/apache/cordova-plugin-camera/pull/762) ci: add `gh-actions` workflows
+* [GH-851](https://github.com/apache/cordova-plugin-my-camera/pull/851) ci(gh-action): sync with `paramedic` configs
+* [GH-835](https://github.com/apache/cordova-plugin-my-camera/pull/835) ci(android): Drop API 22 & 31. Added API 24 & 33
+* [GH-804](https://github.com/apache/cordova-plugin-my-camera/pull/804) ci: sync workflow with `paramedic`
+* [GH-798](https://github.com/apache/cordova-plugin-my-camera/pull/798) ci(android): update java requirement for `cordova-android@11`
+* [GH-770](https://github.com/apache/cordova-plugin-my-camera/pull/770) ci(ios): update workflow w/ iOS 15
+* [GH-766](https://github.com/apache/cordova-plugin-my-camera/pull/766) ci: remove old ci workflow
+* [GH-765](https://github.com/apache/cordova-plugin-my-camera/pull/765) ci: add action-badge
+* [GH-764](https://github.com/apache/cordova-plugin-my-camera/pull/764) ci: remove `travis` & `appveyor`
+* [GH-762](https://github.com/apache/cordova-plugin-my-camera/pull/762) ci: add `gh-actions` workflows
 
 ### 6.0.0 (Aug 19, 2021)
 
 **Feature:**
 
-* [GH-751](https://github.com/apache/cordova-plugin-camera/pull/751) feat(android)!: support **AndroidX**
-* [GH-750](https://github.com/apache/cordova-plugin-camera/pull/750) feat(android): bump `cordova-android` requirements for `10.x`
-* [GH-731](https://github.com/apache/cordova-plugin-camera/pull/731) feat(android): encode `heic` format to `EncodingType` for webview display [#711](https://github.com/apache/cordova-plugin-camera/issues/711)
-* [GH-684](https://github.com/apache/cordova-plugin-camera/pull/684) feat(android): `sdk-30` package visibility support
+* [GH-751](https://github.com/apache/cordova-plugin-my-camera/pull/751) feat(android)!: support **AndroidX**
+* [GH-750](https://github.com/apache/cordova-plugin-my-camera/pull/750) feat(android): bump `cordova-android` requirements for `10.x`
+* [GH-731](https://github.com/apache/cordova-plugin-my-camera/pull/731) feat(android): encode `heic` format to `EncodingType` for webview display [#711](https://github.com/apache/cordova-plugin-my-camera/issues/711)
+* [GH-684](https://github.com/apache/cordova-plugin-my-camera/pull/684) feat(android): `sdk-30` package visibility support
 
 **Fix:**
 
-* [GH-687](https://github.com/apache/cordova-plugin-camera/pull/687) fix(android): return exception message (where it exists)
-* [GH-585](https://github.com/apache/cordova-plugin-camera/pull/585) fix(android): file path correction if `Uri` authority is `FileProvider`
+* [GH-687](https://github.com/apache/cordova-plugin-my-camera/pull/687) fix(android): return exception message (where it exists)
+* [GH-585](https://github.com/apache/cordova-plugin-my-camera/pull/585) fix(android): file path correction if `Uri` authority is `FileProvider`
 
 **Chore & CI:**
 
-* [GH-749](https://github.com/apache/cordova-plugin-camera/pull/749) chore: bump plugin version for next major
-* [GH-654](https://github.com/apache/cordova-plugin-camera/pull/654) chore: add release notify action
-* [GH-745](https://github.com/apache/cordova-plugin-camera/pull/745) ci(gh-action): added workflow to run tests
+* [GH-749](https://github.com/apache/cordova-plugin-my-camera/pull/749) chore: bump plugin version for next major
+* [GH-654](https://github.com/apache/cordova-plugin-my-camera/pull/654) chore: add release notify action
+* [GH-745](https://github.com/apache/cordova-plugin-my-camera/pull/745) ci(gh-action): added workflow to run tests
 
 ### 5.0.3 (Aug 04, 2021)
 
-* [GH-754](https://github.com/apache/cordova-plugin-camera/pull/754) chore: rebuilt `package-lock.json`
-* [GH-748](https://github.com/apache/cordova-plugin-camera/pull/748) fix: incorrect version in `package-lock`
-* [GH-747](https://github.com/apache/cordova-plugin-camera/pull/747) chore: set the 5.x versions locked to `cordova-android` `<10.0.0`
-* [GH-729](https://github.com/apache/cordova-plugin-camera/pull/729) chore(asf): Update GitHub repo metadata
+* [GH-754](https://github.com/apache/cordova-plugin-my-camera/pull/754) chore: rebuilt `package-lock.json`
+* [GH-748](https://github.com/apache/cordova-plugin-my-camera/pull/748) fix: incorrect version in `package-lock`
+* [GH-747](https://github.com/apache/cordova-plugin-my-camera/pull/747) chore: set the 5.x versions locked to `cordova-android` `<10.0.0`
+* [GH-729](https://github.com/apache/cordova-plugin-my-camera/pull/729) chore(asf): Update GitHub repo metadata
 
 ### 5.0.2 (May 11, 2021)
-* [GH-728](https://github.com/apache/cordova-plugin-camera/pull/728) plugin release preparation - audit fix
-* [GH-700](https://github.com/apache/cordova-plugin-camera/pull/700) Bugfix [issue 665](https://github.com/apache/cordova-plugin-camera/issues/665) - app crashes after taking a picture due to a bug in the camera plugin when app is resumed
-* [GH-691](https://github.com/apache/cordova-plugin-camera/pull/691) ci: add node-14.x to workflow (#691)
+* [GH-728](https://github.com/apache/cordova-plugin-my-camera/pull/728) plugin release preparation - audit fix
+* [GH-700](https://github.com/apache/cordova-plugin-my-camera/pull/700) Bugfix [issue 665](https://github.com/apache/cordova-plugin-my-camera/issues/665) - app crashes after taking a picture due to a bug in the camera plugin when app is resumed
+* [GH-691](https://github.com/apache/cordova-plugin-my-camera/pull/691) ci: add node-14.x to workflow (#691)
 
 ### 5.0.1 (Nov 04, 2020)
 
-* [GH-686](https://github.com/apache/cordova-plugin-camera/pull/686) chore(android): add missing apache license header
-* [GH-685](https://github.com/apache/cordova-plugin-camera/pull/685) fix(ios): correctly append exif on **iOS** 14
-* [GH-669](https://github.com/apache/cordova-plugin-camera/pull/669) fix(android): save to photo gallery - fixes issues [#341](https://github.com/apache/cordova-plugin-camera/pull/341) & [#577](https://github.com/apache/cordova-plugin-camera/pull/577)
-* [GH-672](https://github.com/apache/cordova-plugin-camera/pull/672) chore: Fix JIRA links in RELEASENOTES.md
-* [GH-664](https://github.com/apache/cordova-plugin-camera/pull/664) chore: Update RELEASENOTES
+* [GH-686](https://github.com/apache/cordova-plugin-my-camera/pull/686) chore(android): add missing apache license header
+* [GH-685](https://github.com/apache/cordova-plugin-my-camera/pull/685) fix(ios): correctly append exif on **iOS** 14
+* [GH-669](https://github.com/apache/cordova-plugin-my-camera/pull/669) fix(android): save to photo gallery - fixes issues [#341](https://github.com/apache/cordova-plugin-my-camera/pull/341) & [#577](https://github.com/apache/cordova-plugin-my-camera/pull/577)
+* [GH-672](https://github.com/apache/cordova-plugin-my-camera/pull/672) chore: Fix JIRA links in RELEASENOTES.md
+* [GH-664](https://github.com/apache/cordova-plugin-my-camera/pull/664) chore: Update RELEASENOTES
 
 ### 5.0.0 (Sep 14, 2020)
 
-* [GH-648](https://github.com/apache/cordova-plugin-camera/pull/648) ci(travis): update osx xcode image
-* [GH-637](https://github.com/apache/cordova-plugin-camera/pull/637) breaking: remove `NATIVE_URI` DestinationType
-* [GH-628](https://github.com/apache/cordova-plugin-camera/pull/628) breaking: bump project requirements
-* [GH-634](https://github.com/apache/cordova-plugin-camera/pull/634) chore: remove deprecated `file-transfer` plugin
-* [GH-632](https://github.com/apache/cordova-plugin-camera/pull/632) fix(android): return error if file url is null
-* [GH-510](https://github.com/apache/cordova-plugin-camera/pull/510) fix(android): use provider prefix to avoid conflicts other plugin providers
-* [GH-617](https://github.com/apache/cordova-plugin-camera/pull/617) breaking(android): stop using `CordovaUri` helper class
-* [GH-630](https://github.com/apache/cordova-plugin-camera/pull/630) chore: add `package-lock.json`
-* [GH-631](https://github.com/apache/cordova-plugin-camera/pull/631) chore(package): use short notation
-* [GH-629](https://github.com/apache/cordova-plugin-camera/pull/629) feat: migrate to `@cordova/eslint-config@3.x`
-* [GH-626](https://github.com/apache/cordova-plugin-camera/pull/626) ci: fix additional tests
-* [GH-627](https://github.com/apache/cordova-plugin-camera/pull/627) breaking: bump version 5.0.0-dev
-* [GH-612](https://github.com/apache/cordova-plugin-camera/pull/612) fix(ios): `tempFilePath` called twice if using `CameraUsesGeolocation`
-* [GH-588](https://github.com/apache/cordova-plugin-camera/pull/588) Cache images in device storage, devices have enough space now.
-* [GH-508](https://github.com/apache/cordova-plugin-camera/pull/508) docs(readme): app renamed to Google Photos
+* [GH-648](https://github.com/apache/cordova-plugin-my-camera/pull/648) ci(travis): update osx xcode image
+* [GH-637](https://github.com/apache/cordova-plugin-my-camera/pull/637) breaking: remove `NATIVE_URI` DestinationType
+* [GH-628](https://github.com/apache/cordova-plugin-my-camera/pull/628) breaking: bump project requirements
+* [GH-634](https://github.com/apache/cordova-plugin-my-camera/pull/634) chore: remove deprecated `file-transfer` plugin
+* [GH-632](https://github.com/apache/cordova-plugin-my-camera/pull/632) fix(android): return error if file url is null
+* [GH-510](https://github.com/apache/cordova-plugin-my-camera/pull/510) fix(android): use provider prefix to avoid conflicts other plugin providers
+* [GH-617](https://github.com/apache/cordova-plugin-my-camera/pull/617) breaking(android): stop using `CordovaUri` helper class
+* [GH-630](https://github.com/apache/cordova-plugin-my-camera/pull/630) chore: add `package-lock.json`
+* [GH-631](https://github.com/apache/cordova-plugin-my-camera/pull/631) chore(package): use short notation
+* [GH-629](https://github.com/apache/cordova-plugin-my-camera/pull/629) feat: migrate to `@cordova/eslint-config@3.x`
+* [GH-626](https://github.com/apache/cordova-plugin-my-camera/pull/626) ci: fix additional tests
+* [GH-627](https://github.com/apache/cordova-plugin-my-camera/pull/627) breaking: bump version 5.0.0-dev
+* [GH-612](https://github.com/apache/cordova-plugin-my-camera/pull/612) fix(ios): `tempFilePath` called twice if using `CameraUsesGeolocation`
+* [GH-588](https://github.com/apache/cordova-plugin-my-camera/pull/588) Cache images in device storage, devices have enough space now.
+* [GH-508](https://github.com/apache/cordova-plugin-my-camera/pull/508) docs(readme): app renamed to Google Photos
 * chore(asf): update git notification settings
-* [GH-580](https://github.com/apache/cordova-plugin-camera/pull/580) fix(ios): return copy of video when picking from gallery on **iOS** 13
+* [GH-580](https://github.com/apache/cordova-plugin-my-camera/pull/580) fix(ios): return copy of video when picking from gallery on **iOS** 13
 * Update CONTRIBUTING.md
-* [GH-551](https://github.com/apache/cordova-plugin-camera/pull/551) Fix UI API called on a background thread
-* [GH-576](https://github.com/apache/cordova-plugin-camera/pull/576) ci: updates Node.js versions
-* [GH-575](https://github.com/apache/cordova-plugin-camera/pull/575) chore(npm): adds ignore list 
-* [GH-513](https://github.com/apache/cordova-plugin-camera/pull/513) docs(README): remove confusing comment
-* [GH-512](https://github.com/apache/cordova-plugin-camera/pull/512) docs(README): remove orphan **Windows** phone 7 note
-* [GH-306](https://github.com/apache/cordova-plugin-camera/pull/306) ImagePicker returning same image
+* [GH-551](https://github.com/apache/cordova-plugin-my-camera/pull/551) Fix UI API called on a background thread
+* [GH-576](https://github.com/apache/cordova-plugin-my-camera/pull/576) ci: updates Node.js versions
+* [GH-575](https://github.com/apache/cordova-plugin-my-camera/pull/575) chore(npm): adds ignore list 
+* [GH-513](https://github.com/apache/cordova-plugin-my-camera/pull/513) docs(README): remove confusing comment
+* [GH-512](https://github.com/apache/cordova-plugin-my-camera/pull/512) docs(README): remove orphan **Windows** phone 7 note
+* [GH-306](https://github.com/apache/cordova-plugin-my-camera/pull/306) ImagePicker returning same image
 
 ### 4.1.0 (Jun 27, 2019)
 
--   docs: remove outdated test docs translations ([`06dc38f`](https://github.com/apache/cordova-plugin-camera/commit/06dc38f))
--   build: remove `.ratignore` file that is not needed any more ([`5dc9527`](https://github.com/apache/cordova-plugin-camera/commit/5dc9527))
--   chore: fix repo and issue urls and license in package.json and plugin.xml ([`cad8bd1`](https://github.com/apache/cordova-plugin-camera/commit/cad8bd1))
--   fix: temporarily remove Appium tests to unbreak CI ([#468](https://github.com/apache/cordova-plugin-camera/issues/468)) ([`19d8e2f`](https://github.com/apache/cordova-plugin-camera/commit/19d8e2f))
--   ci(travis): Update Travis CI configuration for new paramedic ([#455](https://github.com/apache/cordova-plugin-camera/issues/455)) ([`cffd0ac`](https://github.com/apache/cordova-plugin-camera/commit/cffd0ac))
--   fix(android): Fix NullPointerException error on some Android phones ([#429](https://github.com/apache/cordova-plugin-camera/issues/429)) ([`295e928`](https://github.com/apache/cordova-plugin-camera/commit/295e928))
--   ci: Update CI Environment Setup for Node.js 6 ([#438](https://github.com/apache/cordova-plugin-camera/issues/438)) ([`fae190e`](https://github.com/apache/cordova-plugin-camera/commit/fae190e))
--   refactor(android): Enhancement: Camera plugin code cleanup ([#425](https://github.com/apache/cordova-plugin-camera/issues/425)) ([`a13665d`](https://github.com/apache/cordova-plugin-camera/commit/a13665d))
--   fix(android): Exif data lost on many cases ([#331](https://github.com/apache/cordova-plugin-camera/issues/331)) ([`81b878d`](https://github.com/apache/cordova-plugin-camera/commit/81b878d))
--   chore(github): Add or update GitHub pull request and issue template ([`b261d31`](https://github.com/apache/cordova-plugin-camera/commit/b261d31))
--   fix(ios): fixes UIImagePickerController cancel handling for iOS11+ ([#377](https://github.com/apache/cordova-plugin-camera/issues/377)) ([`24c8b6c`](https://github.com/apache/cordova-plugin-camera/commit/24c8b6c))
--   docs: Remove deprecated platforms from docs ([#394](https://github.com/apache/cordova-plugin-camera/issues/394)) ([`7ddb3df`](https://github.com/apache/cordova-plugin-camera/commit/7ddb3df))
--   fix(android): return DATA_URL for ALLMEDIA if it's an image ([#382](https://github.com/apache/cordova-plugin-camera/issues/382)) ([`60e7795`](https://github.com/apache/cordova-plugin-camera/commit/60e7795))
--   refactor(ios): [CB-13813](https://issues.apache.org/jira/browse/CB-13813): Remove old iOS code ([#381](https://github.com/apache/cordova-plugin-camera/issues/381)) ([`ce77aab`](https://github.com/apache/cordova-plugin-camera/commit/ce77aab))
--   feat(ios): [CB-13865](https://issues.apache.org/jira/browse/CB-13865): (Ipad) Making popover Window Size configurable using popoverOptions - imagePicker ([#314](https://github.com/apache/cordova-plugin-camera/issues/314)) ([`cd72047`](https://github.com/apache/cordova-plugin-camera/commit/cd72047))
--   chore(types): [CB-13837](https://issues.apache.org/jira/browse/CB-13837): fix TypeScript Definition for CameraPopoverOptions ([#379](https://github.com/apache/cordova-plugin-camera/issues/379)) ([`86b0bf2`](https://github.com/apache/cordova-plugin-camera/commit/86b0bf2))
--   docs(android): clarify android quirk of cameraDirection ([`a5a3d88`](https://github.com/apache/cordova-plugin-camera/commit/a5a3d88), [`bfbe4a1`](https://github.com/apache/cordova-plugin-camera/commit/bfbe4a1))
--   chore(release): Bump minor version ([#370](https://github.com/apache/cordova-plugin-camera/issues/370)) ([`eed4433`](https://github.com/apache/cordova-plugin-camera/commit/eed4433))
--   build: Remove automatic README generation ([#365](https://github.com/apache/cordova-plugin-camera/issues/365)) ([`07e8574`](https://github.com/apache/cordova-plugin-camera/commit/07e8574))
--   docs: remove JIRA link ([`bcb26fb`](https://github.com/apache/cordova-plugin-camera/commit/bcb26fb))
--   ci(travis): also accept terms for android sdk `android-27` ([`a346212`](https://github.com/apache/cordova-plugin-camera/commit/a346212))
--   docs: remove outdated docs translations that haven't been touched for 3 years ([`403682b`](https://github.com/apache/cordova-plugin-camera/commit/403682b))
--   fix(android): [CB-14097](https://issues.apache.org/jira/browse/CB-14097): Fix crash when selecting some files with getPicture ([#322](https://github.com/apache/cordova-plugin-camera/issues/322)) ([`5c23b65`](https://github.com/apache/cordova-plugin-camera/commit/5c23b65))
--   fix(browser): [CB-13384](https://issues.apache.org/jira/browse/CB-13384): Added deprecation of video.src compatibility ([#288](https://github.com/apache/cordova-plugin-camera/issues/288)) ([`5163d38`](https://github.com/apache/cordova-plugin-camera/commit/5163d38))
--   fix(browser): Remove audio flag from getUserMedia ([#284](https://github.com/apache/cordova-plugin-camera/issues/284)) ([`36343a8`](https://github.com/apache/cordova-plugin-camera/commit/36343a8))
--   docs: replace warning emoji with warning unicode ([#317](https://github.com/apache/cordova-plugin-camera/issues/317)) ([`ead7d5e`](https://github.com/apache/cordova-plugin-camera/commit/ead7d5e))
--   feat(android): Update engines to use variables ([#323](https://github.com/apache/cordova-plugin-camera/issues/323)) ([`6899c5e`](https://github.com/apache/cordova-plugin-camera/commit/6899c5e))
--   feat(android): [CB-14017](https://issues.apache.org/jira/browse/CB-14017): Make com.android.support:support-v4 version configurable ([#318](https://github.com/apache/cordova-plugin-camera/issues/318)) ([`e334656`](https://github.com/apache/cordova-plugin-camera/commit/e334656))
--   refactor(android): [CB-14047](https://issues.apache.org/jira/browse/CB-14047): CameraLauncher: Replacing Repeated String literals with final variables ([#319](https://github.com/apache/cordova-plugin-camera/issues/319)) ([`5ec121b`](https://github.com/apache/cordova-plugin-camera/commit/5ec121b))
--   fix(windows): [CB-11714](https://issues.apache.org/jira/browse/CB-11714): added extra check for content-type in savePhoto() without options.targetWidth/Height ([#242](https://github.com/apache/cordova-plugin-camera/issues/242)) ([`a201722`](https://github.com/apache/cordova-plugin-camera/commit/a201722), [`dc73954`](https://github.com/apache/cordova-plugin-camera/commit/dc73954), [`dca4b9c`](https://github.com/apache/cordova-plugin-camera/commit/dca4b9c), [`c1b9772`](https://github.com/apache/cordova-plugin-camera/commit/c1b9772), [`eb57b02`](https://github.com/apache/cordova-plugin-camera/commit/eb57b02))
+-   docs: remove outdated test docs translations ([`06dc38f`](https://github.com/apache/cordova-plugin-my-camera/commit/06dc38f))
+-   build: remove `.ratignore` file that is not needed any more ([`5dc9527`](https://github.com/apache/cordova-plugin-my-camera/commit/5dc9527))
+-   chore: fix repo and issue urls and license in package.json and plugin.xml ([`cad8bd1`](https://github.com/apache/cordova-plugin-my-camera/commit/cad8bd1))
+-   fix: temporarily remove Appium tests to unbreak CI ([#468](https://github.com/apache/cordova-plugin-my-camera/issues/468)) ([`19d8e2f`](https://github.com/apache/cordova-plugin-my-camera/commit/19d8e2f))
+-   ci(travis): Update Travis CI configuration for new paramedic ([#455](https://github.com/apache/cordova-plugin-my-camera/issues/455)) ([`cffd0ac`](https://github.com/apache/cordova-plugin-my-camera/commit/cffd0ac))
+-   fix(android): Fix NullPointerException error on some Android phones ([#429](https://github.com/apache/cordova-plugin-my-camera/issues/429)) ([`295e928`](https://github.com/apache/cordova-plugin-my-camera/commit/295e928))
+-   ci: Update CI Environment Setup for Node.js 6 ([#438](https://github.com/apache/cordova-plugin-my-camera/issues/438)) ([`fae190e`](https://github.com/apache/cordova-plugin-my-camera/commit/fae190e))
+-   refactor(android): Enhancement: Camera plugin code cleanup ([#425](https://github.com/apache/cordova-plugin-my-camera/issues/425)) ([`a13665d`](https://github.com/apache/cordova-plugin-my-camera/commit/a13665d))
+-   fix(android): Exif data lost on many cases ([#331](https://github.com/apache/cordova-plugin-my-camera/issues/331)) ([`81b878d`](https://github.com/apache/cordova-plugin-my-camera/commit/81b878d))
+-   chore(github): Add or update GitHub pull request and issue template ([`b261d31`](https://github.com/apache/cordova-plugin-my-camera/commit/b261d31))
+-   fix(ios): fixes UIImagePickerController cancel handling for iOS11+ ([#377](https://github.com/apache/cordova-plugin-my-camera/issues/377)) ([`24c8b6c`](https://github.com/apache/cordova-plugin-my-camera/commit/24c8b6c))
+-   docs: Remove deprecated platforms from docs ([#394](https://github.com/apache/cordova-plugin-my-camera/issues/394)) ([`7ddb3df`](https://github.com/apache/cordova-plugin-my-camera/commit/7ddb3df))
+-   fix(android): return DATA_URL for ALLMEDIA if it's an image ([#382](https://github.com/apache/cordova-plugin-my-camera/issues/382)) ([`60e7795`](https://github.com/apache/cordova-plugin-my-camera/commit/60e7795))
+-   refactor(ios): [CB-13813](https://issues.apache.org/jira/browse/CB-13813): Remove old iOS code ([#381](https://github.com/apache/cordova-plugin-my-camera/issues/381)) ([`ce77aab`](https://github.com/apache/cordova-plugin-my-camera/commit/ce77aab))
+-   feat(ios): [CB-13865](https://issues.apache.org/jira/browse/CB-13865): (Ipad) Making popover Window Size configurable using popoverOptions - imagePicker ([#314](https://github.com/apache/cordova-plugin-my-camera/issues/314)) ([`cd72047`](https://github.com/apache/cordova-plugin-my-camera/commit/cd72047))
+-   chore(types): [CB-13837](https://issues.apache.org/jira/browse/CB-13837): fix TypeScript Definition for CameraPopoverOptions ([#379](https://github.com/apache/cordova-plugin-my-camera/issues/379)) ([`86b0bf2`](https://github.com/apache/cordova-plugin-my-camera/commit/86b0bf2))
+-   docs(android): clarify android quirk of cameraDirection ([`a5a3d88`](https://github.com/apache/cordova-plugin-my-camera/commit/a5a3d88), [`bfbe4a1`](https://github.com/apache/cordova-plugin-my-camera/commit/bfbe4a1))
+-   chore(release): Bump minor version ([#370](https://github.com/apache/cordova-plugin-my-camera/issues/370)) ([`eed4433`](https://github.com/apache/cordova-plugin-my-camera/commit/eed4433))
+-   build: Remove automatic README generation ([#365](https://github.com/apache/cordova-plugin-my-camera/issues/365)) ([`07e8574`](https://github.com/apache/cordova-plugin-my-camera/commit/07e8574))
+-   docs: remove JIRA link ([`bcb26fb`](https://github.com/apache/cordova-plugin-my-camera/commit/bcb26fb))
+-   ci(travis): also accept terms for android sdk `android-27` ([`a346212`](https://github.com/apache/cordova-plugin-my-camera/commit/a346212))
+-   docs: remove outdated docs translations that haven't been touched for 3 years ([`403682b`](https://github.com/apache/cordova-plugin-my-camera/commit/403682b))
+-   fix(android): [CB-14097](https://issues.apache.org/jira/browse/CB-14097): Fix crash when selecting some files with getPicture ([#322](https://github.com/apache/cordova-plugin-my-camera/issues/322)) ([`5c23b65`](https://github.com/apache/cordova-plugin-my-camera/commit/5c23b65))
+-   fix(browser): [CB-13384](https://issues.apache.org/jira/browse/CB-13384): Added deprecation of video.src compatibility ([#288](https://github.com/apache/cordova-plugin-my-camera/issues/288)) ([`5163d38`](https://github.com/apache/cordova-plugin-my-camera/commit/5163d38))
+-   fix(browser): Remove audio flag from getUserMedia ([#284](https://github.com/apache/cordova-plugin-my-camera/issues/284)) ([`36343a8`](https://github.com/apache/cordova-plugin-my-camera/commit/36343a8))
+-   docs: replace warning emoji with warning unicode ([#317](https://github.com/apache/cordova-plugin-my-camera/issues/317)) ([`ead7d5e`](https://github.com/apache/cordova-plugin-my-camera/commit/ead7d5e))
+-   feat(android): Update engines to use variables ([#323](https://github.com/apache/cordova-plugin-my-camera/issues/323)) ([`6899c5e`](https://github.com/apache/cordova-plugin-my-camera/commit/6899c5e))
+-   feat(android): [CB-14017](https://issues.apache.org/jira/browse/CB-14017): Make com.android.support:support-v4 version configurable ([#318](https://github.com/apache/cordova-plugin-my-camera/issues/318)) ([`e334656`](https://github.com/apache/cordova-plugin-my-camera/commit/e334656))
+-   refactor(android): [CB-14047](https://issues.apache.org/jira/browse/CB-14047): CameraLauncher: Replacing Repeated String literals with final variables ([#319](https://github.com/apache/cordova-plugin-my-camera/issues/319)) ([`5ec121b`](https://github.com/apache/cordova-plugin-my-camera/commit/5ec121b))
+-   fix(windows): [CB-11714](https://issues.apache.org/jira/browse/CB-11714): added extra check for content-type in savePhoto() without options.targetWidth/Height ([#242](https://github.com/apache/cordova-plugin-my-camera/issues/242)) ([`a201722`](https://github.com/apache/cordova-plugin-my-camera/commit/a201722), [`dc73954`](https://github.com/apache/cordova-plugin-my-camera/commit/dc73954), [`dca4b9c`](https://github.com/apache/cordova-plugin-my-camera/commit/dca4b9c), [`c1b9772`](https://github.com/apache/cordova-plugin-my-camera/commit/c1b9772), [`eb57b02`](https://github.com/apache/cordova-plugin-my-camera/commit/eb57b02))
 
 
 ### 4.0.3 (Apr 12, 2018)
@@ -208,7 +208,7 @@
 * [CB-12369](https://issues.apache.org/jira/browse/CB-12369) Add plugin typings from `DefinitelyTyped`
 * [CB-12363](https://issues.apache.org/jira/browse/CB-12363) Added build badges for **iOS 9.3** and **iOS 10.0**
 * [CB-12312](https://issues.apache.org/jira/browse/CB-12312) [Appium] [Android] A few changes to the tests:  - updated comments on how to run the tests. extra comments around functionality at certain points in the automation.  - stub of a resolution checker on test startup - still need to figure out acceptable values.  - moved session shutdown to an afterAll clause.  - changed resolution determiner from using webview-based values to using the native windows dimensions - this helps as the webview values may be scaled down intentionally by manufacturers (via changing devicePixelRatio). furthermore, since the screen dimension automation is used purely for native UI automation, better to use the dimensions reported by the native context rather than the web context.  - when finding elements by XPath, use multiple calls to avoid a Windows emulator + Android bug. Made this pattern consistent in the entire test.
-* [CB-12236](https://issues.apache.org/jira/browse/CB-12236) - Fixed RELEASENOTES for cordova-plugin-camera
+* [CB-12236](https://issues.apache.org/jira/browse/CB-12236) - Fixed RELEASENOTES for cordova-plugin-my-camera
 * [CB-12230](https://issues.apache.org/jira/browse/CB-12230) Removed Windows 8.1 build badges
 
 ### 2.3.1 (Dec 07, 2016)
@@ -343,7 +343,7 @@
 ### 1.2.0 (Jun 17, 2015)
 * Closing stale pull request: close #84
 * Closing stale pull request: close #66
-* [CB-9128](https://issues.apache.org/jira/browse/CB-9128) cordova-plugin-camera documentation translation: cordova-plugin-camera
+* [CB-9128](https://issues.apache.org/jira/browse/CB-9128) cordova-plugin-my-camera documentation translation: cordova-plugin-my-camera
 * Update docs. This closes #100
 * attempt to fix npm markdown issue
 * [CB-8883](https://issues.apache.org/jira/browse/CB-8883) fix picture rotation issue
@@ -373,7 +373,7 @@
 * [CB-8706](https://issues.apache.org/jira/browse/CB-8706) use filePicker if saveToPhotoAlbum is true
 * [CB-8706](https://issues.apache.org/jira/browse/CB-8706) remove unnecessary capabilities from xml
 * [CB-8747](https://issues.apache.org/jira/browse/CB-8747) updated dependency, added peer dependency
-* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) updated blackberry specific references of org.apache.cordova.camera to cordova-plugin-camera
+* [CB-8683](https://issues.apache.org/jira/browse/CB-8683) updated blackberry specific references of org.apache.cordova.camera to cordova-plugin-my-camera
 * [CB-8782](https://issues.apache.org/jira/browse/CB-8782): Updated the docs to talk about the allowEdit quirks, it's not 100% working, but better than it was
 * [CB-8782](https://issues.apache.org/jira/browse/CB-8782): Fixed the flow so that we save the cropped image and use it, not the original non-cropped.  Crop only supports G+ Photos Crop, other crops may not work, depending on the OEM
 * [CB-8740](https://issues.apache.org/jira/browse/CB-8740): Removing FileHelper call that was failing on Samsung Galaxy S3, now that we have a real path, we only need to update the MediaStore, not pull from it in this case
@@ -393,7 +393,7 @@
 * add try ... catch for getting image orientation
 * [CB-8599](https://issues.apache.org/jira/browse/CB-8599) fix threading issue with cameraPicker (fixes #72)
 * [CB-8559](https://issues.apache.org/jira/browse/CB-8559) Integrate TravisCI
-* [CB-8438](https://issues.apache.org/jira/browse/CB-8438) cordova-plugin-camera documentation translation: cordova-plugin-camera
+* [CB-8438](https://issues.apache.org/jira/browse/CB-8438) cordova-plugin-my-camera documentation translation: cordova-plugin-my-camera
 * [CB-8538](https://issues.apache.org/jira/browse/CB-8538) Added package.json file
 
 ### 0.3.5 (Feb 04, 2015)
@@ -410,7 +410,7 @@
 * Fix memory leak of image data in `imagePickerControllerReturnImageResult`
 * Pass uri to crop instead of pulling the low resolution image out of the intent return (close #43)
 * Add orientation support for PNG to Android (closes #45)
-* [CB-7700](https://issues.apache.org/jira/browse/CB-7700) cordova-plugin-camera documentation translation: cordova-plugin-camera
+* [CB-7700](https://issues.apache.org/jira/browse/CB-7700) cordova-plugin-my-camera documentation translation: cordova-plugin-my-camera
 
 ### 0.3.3 (Oct 03, 2014)
 * [CB-7600](https://issues.apache.org/jira/browse/CB-7600) Adds informative message to error callback in manual test.
@@ -420,11 +420,11 @@
 * [CB-7558](https://issues.apache.org/jira/browse/CB-7558) hasPendingOperation flag in Camera plugin's takePicture should be reversed to fix memory errors
 * [CB-7557](https://issues.apache.org/jira/browse/CB-7557) Camera plugin tests is missing a File dependency
 * [CB-7423](https://issues.apache.org/jira/browse/CB-7423) do cleanup after copyImage manual test
-* [CB-7471](https://issues.apache.org/jira/browse/CB-7471) cordova-plugin-camera documentation translation: cordova-plugin-camera
+* [CB-7471](https://issues.apache.org/jira/browse/CB-7471) cordova-plugin-my-camera documentation translation: cordova-plugin-my-camera
 * [CB-7413](https://issues.apache.org/jira/browse/CB-7413) Resolve 'ms-appdata' URIs with File plugin
 * Fixed minor bugs with the browser
 * [CB-7433](https://issues.apache.org/jira/browse/CB-7433) Adds missing window reference to prevent manual tests failure on Android and iOS
-* [CB-7249](https://issues.apache.org/jira/browse/CB-7249) cordova-plugin-camera documentation translation: cordova-plugin-camera
+* [CB-7249](https://issues.apache.org/jira/browse/CB-7249) cordova-plugin-my-camera documentation translation: cordova-plugin-my-camera
 * [CB-4003](https://issues.apache.org/jira/browse/CB-4003) Add config option to not use location information in Camera plugin (and default to not use it)
 * [CB-7461](https://issues.apache.org/jira/browse/CB-7461) Geolocation fails in Camera plugin in iOS 8
 * [CB-7378](https://issues.apache.org/jira/browse/CB-7378) Use single Proxy for both windows8 and windows.
@@ -432,7 +432,7 @@
 * [CB-7433](https://issues.apache.org/jira/browse/CB-7433) Fixes manual tests failure on windows
 * [CB-6958](https://issues.apache.org/jira/browse/CB-6958) Get the correct default for "quality" in the test
 * add documentation for manual tests
-* [CB-7249](https://issues.apache.org/jira/browse/CB-7249) cordova-plugin-camera documentation translation: cordova-plugin-camera
+* [CB-7249](https://issues.apache.org/jira/browse/CB-7249) cordova-plugin-my-camera documentation translation: cordova-plugin-my-camera
 * [CB-4003](https://issues.apache.org/jira/browse/CB-4003) Add config option to not use location information in Camera plugin (and default to not use it)
 * [CB-7461](https://issues.apache.org/jira/browse/CB-7461) Geolocation fails in Camera plugin in iOS 8
 * [CB-7433](https://issues.apache.org/jira/browse/CB-7433) Fixes manual tests failure on windows
@@ -465,7 +465,7 @@
 ### 0.3.0 (Jun 05, 2014)
 * [CB-5895](https://issues.apache.org/jira/browse/CB-5895) documented saveToPhotoAlbum quirk on WP8
 * Remove deprecated symbols for iOS < 6
-* documentation translation: cordova-plugin-camera
+* documentation translation: cordova-plugin-my-camera
 * ubuntu: use application directory for images
 * [CB-6795](https://issues.apache.org/jira/browse/CB-6795) Add license
 * Little fix in code formatting

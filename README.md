@@ -21,9 +21,9 @@ description: Take pictures with the device camera.
 #         under the License.
 -->
 
-# cordova-plugin-camera
+# cordova-plugin-my-camera
 
-[![Android Testsuite](https://github.com/apache/cordova-plugin-camera/actions/workflows/android.yml/badge.svg)](https://github.com/apache/cordova-plugin-camera/actions/workflows/android.yml) [![Chrome Testsuite](https://github.com/apache/cordova-plugin-camera/actions/workflows/chrome.yml/badge.svg)](https://github.com/apache/cordova-plugin-camera/actions/workflows/chrome.yml) [![iOS Testsuite](https://github.com/apache/cordova-plugin-camera/actions/workflows/ios.yml/badge.svg)](https://github.com/apache/cordova-plugin-camera/actions/workflows/ios.yml) [![Lint Test](https://github.com/apache/cordova-plugin-camera/actions/workflows/lint.yml/badge.svg)](https://github.com/apache/cordova-plugin-camera/actions/workflows/lint.yml)
+[![Android Testsuite](https://github.com/apache/cordova-plugin-my-camera/actions/workflows/android.yml/badge.svg)](https://github.com/apache/cordova-plugin-my-camera/actions/workflows/android.yml) [![Chrome Testsuite](https://github.com/apache/cordova-plugin-my-camera/actions/workflows/chrome.yml/badge.svg)](https://github.com/apache/cordova-plugin-my-camera/actions/workflows/chrome.yml) [![iOS Testsuite](https://github.com/apache/cordova-plugin-my-camera/actions/workflows/ios.yml/badge.svg)](https://github.com/apache/cordova-plugin-my-camera/actions/workflows/ios.yml) [![Lint Test](https://github.com/apache/cordova-plugin-my-camera/actions/workflows/lint.yml/badge.svg)](https://github.com/apache/cordova-plugin-my-camera/actions/workflows/lint.yml)
 
 This plugin defines a global `navigator.camera` object, which provides an API for taking pictures and for choosing images from
 the system's image library.
@@ -38,11 +38,11 @@ Although the object is attached to the global scoped `navigator`, it is not avai
 
 ## Installation
 
-    cordova plugin add cordova-plugin-camera
+    cordova plugin add cordova-plugin-my-camera
 
 It is also possible to install via repo url directly ( unstable )
 
-    cordova plugin add https://github.com/apache/cordova-plugin-camera.git
+    cordova plugin add https://github.com/apache/cordova-plugin-my-camera.git
 
 ## Plugin variables
 
@@ -51,15 +51,15 @@ If no value is passed, it will use `1.6.+` as the default value.
 
 The variable is configured on install time
 
-    cordova plugin add cordova-plugin-camera --variable ANDROIDX_CORE_VERSION=1.8.0
+    cordova plugin add cordova-plugin-my-camera --variable ANDROIDX_CORE_VERSION=1.8.0
 
 ## How to Contribute
 
-Contributors are welcome! And we need your contributions to keep the project moving forward. You can[report bugs, improve the documentation, or [contribute code](https://github.com/apache/cordova-plugin-camera/pulls).
+Contributors are welcome! And we need your contributions to keep the project moving forward. You can[report bugs, improve the documentation, or [contribute code](https://github.com/apache/cordova-plugin-my-camera/pulls).
 
 There is a specific [contributor workflow](http://wiki.apache.org/cordova/ContributorWorkflow) we recommend. Start reading there. More information is available on [our wiki](http://wiki.apache.org/cordova).
 
-**Have a solution?** Send a [Pull Request](https://github.com/apache/cordova-plugin-camera/pulls).
+**Have a solution?** Send a [Pull Request](https://github.com/apache/cordova-plugin-my-camera/pulls).
 
 In order for your changes to be accepted, you need to sign and submit an Apache [ICLA](http://www.apache.org/licenses/#clas) (Individual Contributor License Agreement). Then your name will appear on the list of CLAs signed by [non-committers](https://people.apache.org/committer-index.html#unlistedclas) or [Cordova committers](http://people.apache.org/committers-by-project.html#cordova).
 

@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-camera-tests",
-  "version": "7.0.1-dev",
+  "name": "cordova-plugin-my-camera-tests",
+  "version": "7.0.0",
   "description": "",
   "cordova": {
-    "id": "cordova-plugin-camera-tests",
+    "id": "cordova-plugin-my-camera-tests",
     "platforms": []
   },
   "keywords": [
